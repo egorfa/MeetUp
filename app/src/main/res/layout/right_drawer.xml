@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DrawerRootRight"
+    android:orientation="vertical"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:choiceMode="singleChoice"
+    android:background="#fff">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imageView_right"
+        android:src="@drawable/example" />
+    <!--TODO image src-->
+
+    <ListView
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:id="@+id/right_drawer_listview"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#fff"/>
+
+
+</LinearLayout>

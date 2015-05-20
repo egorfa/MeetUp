@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TheVyshka</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="screen_array">
+        <item>Все встречи</item>
+        <item>Мои встречи</item>
+        <item>Организация</item>
+        <item>Профиль</item>
+    </string-array>
+</resources>
